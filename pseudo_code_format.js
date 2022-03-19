@@ -121,3 +121,31 @@ function saveHighscore() {
   startBtn.onclick = startQuiz;
   
   initialsEl.onkeyup = checkForEnter;
+
+  var questions = [
+    {
+        title: "What three types of code have we learned so far?:",
+        choices: ["HTML", "CSS", "JavaScript", "All Of The Above"],
+        answer: "All Of The Above"
+    },
+    {
+        title: "What form of code is used to style HTML?",
+        choices: ["CSS", "JavaScript", "JQuery", "Python"],
+        answer: "CSS"
+    },
+    {
+        title: "What javascipt method can we use to select an html element?",
+        choices: ["document.queryselector()", "document.getElementChild", "document.getElementById", "Both 1 and 3"],
+        answer: "Both 1 and 3"
+    },
+    {
+        title: "What html tag is NOT included in the HEAD tag?",
+        choices: ["link", "meta", "title", "header"],
+        answer: "header"
+    },
+    {
+        title: "What attribute is used in html to decorate content?",
+        choices: ["css", "class", "src", "style"],
+        answer: "style"
+    }
+]
