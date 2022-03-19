@@ -1,6 +1,6 @@
 
 var currentQuestionIndex = 0;
-var time = questions.length * 15;
+var time = questions * 15;
 var timerId;
 var timeEl = document.querySelector("#time");
 var startBtn = document.querySelector("#startButton");

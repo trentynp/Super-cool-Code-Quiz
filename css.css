@@ -5,26 +5,50 @@ html {
 
 body {
   margin: 0;
+  background-color: brown;
 }
 
 main {
   display: block;
 }
 
+h3 {
+  color: aliceblue;
+}
+
+h2 {
+  color: aliceblue;
+}
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  color: aliceblue;
+}
+
+p {
+  color: aliceblue;
+}
+
+div {
+  color: aliceblue;
+}
+
+label {
+  color: aliceblue;
 }
 
 hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+  color: aliceblue;
 }
 
 pre {
   font-family: monospace, monospace;
   font-size: 1em;
+  color: aliceblue;
 }
 
 a {
