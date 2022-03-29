@@ -7,6 +7,7 @@ function printHighscores() {
   
     highscores.forEach(function(score) {
       var liTag = document.createElement("li");
+      console.log(score);
       liTag.textContent = score.initials + " - " + score.score;
       var olEl = document.getElementById("highscores");
       olEl.appendChild(liTag);
@@ -18,7 +19,7 @@ function printHighscores() {
     window.location.reload();
   }
   
-  document.getElementById("clear").onclick = clearHighscores;
+  document.getElementById("clear-btn").onclick = clearHighscores;
   
   
   printHighscores();
